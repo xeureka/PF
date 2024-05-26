@@ -1,3 +1,168 @@
 *{
     box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: monospace;
 }
+
+.title-container{
+    width: auto;
+    height: 44vh;
+    padding: 10px;
+    text-align: left;
+    background: linear-gradient(90deg,rgba(2,0,36,1) 0%,rgba(140,119,70,1) 0%,rgba(150,150,138,1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.name,.status{
+    color: white;
+    margin-left:5rem;
+}
+
+.name{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.status{
+    font-size: 11px;
+}
+img.bab{
+    box-shadow: 1px 1px grey;
+    height:150px;
+    width:150px;
+    clip-path: circle(50% at 50% 50%);
+}
+.box{
+    padding: 7px;
+    height:auto;
+    width:20%;
+    background-color: #add0f3;
+    font-size: 7px;
+    border-radius: 6px;
+    box-shadow: 0 0 0 grey;
+}
+
+.intro-section{
+    margin:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+
+.skills-container {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #221f1f;
+  }
+  
+ .skill{
+    font-size: 16px;
+    color:white;
+    margin:14px;
+ }
+
+ .txt{
+    font-size: 8px;
+    color: white;
+ }
+ ul li{
+    list-style: none;
+ }
+
+ .lang{
+    color:tomato;
+    font-size: 7px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    
+ }
+ .exp{
+    font-size: 11px;
+    margin: 20px;
+
+ }
+
+ .cards {
+    gap:10px;
+    text-align: left;
+    width: 200px;
+    height: 200px;
+    background-color: #cde9ff;
+    border-style: none;
+    border-radius: 8px;
+    padding: 10px;
+    
+  }
+
+  .card{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .ex{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .work{
+    text-align: center;
+    margin:20px;
+
+  }
+
+  .projects-container {
+    font-size: 12px;
+    width: auto;
+    padding: 50px;
+    text-align: center;
+    background-color: #16251f;
+  }
+
+  .ex1{
+    color: white;
+    font-size: 16px;
+    margin:20px;
+  }
+
+  .work1{
+    font-size: 11px;
+    color:white ;
+    margin: 20px;
+  }
+
+  .projects-container {
+    
+    width: auto;
+    padding: 50px;
+    text-align: center;
+    background-color: #16251f;
+  }
+
+.text12{
+    font-size: 16px;
+    text-align: center;
+    
+}
+
+.snt{
+    font-size: 11px;
+    text-align: center;
+}
+
+
+ 
+  
+  
