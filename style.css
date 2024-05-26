@@ -162,7 +162,236 @@ img.bab{
     text-align: center;
 }
 
+.contact-form{
+  margin:20px;
+  padding:10px;
+  height:auto;
+  width:100%;
+}
 
- 
+.form-head{
+  margin:10px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.comment-text{
+  margin:10px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.sty{
+  margin-left: 22%;
+  height:auto;
+  width:50%;
+  background-color: #add0f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:1rem;
+}
+form{
+  margin-left: 22%;
+}
+
+
+
+input,textarea{
+  font-size: 16px;
+  margin:0.3rem;
+  height:auto;
+  width:50%;
+  padding: 4px;
+  outline: none;
+  border: 2px solid #a5d1fd;
+  border-radius: 5px;
+  box-shadow: 0 0 0 4px #add0f3;
+  font-size: 11%;
+}
+
+button{
+  outline: none;
+  padding: 4px;
+  border: 1px solid #a5d1fd;
+  border-radius: 5px;
+  background-color: dodgerblue;
+  color:white;
+  position: relative;
+  left:2rem;
+}
+
+.form {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.intro11{
+  margin: 12px;
+}
+
+.form-card {
+  width: 40%;
+  background-color: #cde9ff;
+  border-style: none;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 22px;
+}
+
+
   
+form {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
   
+}
+
+.form input {
+  margin-top: 6px;
+  min-width: 18em;
+  height: 37px;
+  padding: 0 10px;
+  font-size: 16px;
+  border: solid 1px #16251F;
+  border-radius: 4px;
+  margin-bottom: 31px;
+  transition: all .25s ease-in-out;
+}
+
+
+form textarea {
+  margin-top: 6px;
+  min-width: 18em;
+  height: 57px;
+  padding: 0 10px;
+  font-size: 16px;
+  border: solid 1px #16251F;
+  border-radius: 4px;
+  margin-bottom: 31px;
+  transition: all .25s ease-in-out
+}
+
+
+.let{
+  font-size: 16px;
+  text-align: center;
+}
+
+.let1{
+  font-size: 11px;
+  text-align: center;
+}
+
+
+.form button {
+  
+  font-family: Hack,monospace;
+  padding: 9px 16px;
+  border: 0;
+  background-color: #23242c;
+  color: #fff;
+  border-radius: 3px;
+  transition: all .25s ease-in-out;
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  height: 100%;
+  
+  background-color: #082b44;
+}
+
+.final{
+  font-size: 11px;
+  padding:1rem;
+  text-align: center;
+  color:whitesmoke;
+  text-align: center;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer{
+  align-self: flex-end;
+}
+
+
+
+/* media-queries.css */
+
+/* Tablet and below (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+  .intro-section {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .intro-section img {
+      max-width: 150px;
+      margin-bottom: 20px;
+  }
+
+  .box {
+      max-width: 90%;
+      text-align: center;
+  }
+
+  .skills-container ul.lang {
+      padding-left: 0;
+      list-style-position: inside;
+  }
+
+  .card {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .cards {
+      width: 90%;
+      margin-bottom: 20px;
+  }
+
+  .form-card {
+      width: 90%;
+      margin: 0 auto;
+  }
+}
+
+/* Mobile and below (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+  .title-container {
+      text-align: center;
+      margin: 10px 0;
+  }
+
+  .status {
+      font-size: 14px;
+  }
+
+  .box {
+      font-size: 14px;
+      padding: 10px;
+  }
+
+  .skills-container ul.lang li {
+      font-size: 14px;
+  }
+
+  .exp, .projects-container, .intro11, .form {
+      padding: 10px;
+  }
+
+  .form-card input, .form-card textarea, .form-card button {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+}
