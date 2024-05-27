@@ -232,22 +232,27 @@ button{
   margin: 12px;
 }
 
-.form-card {
-  width: 40%;
+
+.fi{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+  
+form {
+  width: fit-content;
+  display: flex;
+  ;
+  flex-direction: column;
+  
+
   background-color: #cde9ff;
   border-style: none;
   border-radius: 8px;
   padding: 20px;
   margin-bottom: 22px;
-}
-
-
-  
-form {
-  display: flex;
-  flex-direction: column;
-  width: fit-content;
-  
 }
 
 .form input {
@@ -288,8 +293,9 @@ form textarea {
 
 
 .form button {
-  
-  font-family: Hack,monospace;
+
+  margin-right: 22px;
+  align-self: stretch;
   padding: 9px 16px;
   border: 0;
   background-color: #23242c;
@@ -297,6 +303,9 @@ form textarea {
   border-radius: 3px;
   transition: all .25s ease-in-out;
   cursor: pointer;
+}
+button:hover{
+  background-color:tomato;
 }
 
 footer {
