@@ -405,3 +405,12 @@ footer{
       margin-bottom: 10px;
   }
 }
+
+
+.ani{
+  transition: transform 1s;
+}
+
+.ani:hover{
+  transform: scale(1.2);
+}
