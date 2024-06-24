@@ -416,3 +416,18 @@ footer{
 .ani:hover{
   transform: scale(1.2);
 }
+
+.contact{
+  color: white;
+  display: flex;
+  justify-content: center;
+  
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 12px;
+}
+
+
+.one:hover{
+  color: tomato;
+}
