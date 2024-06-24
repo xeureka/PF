@@ -431,3 +431,12 @@ footer{
 .one:hover{
   color: tomato;
 }
+
+.lst{
+  transition: trasform 1s ease-out;
+}
+
+.lst:hover{
+  color: dodgerblue;
+  transform: scale(1.2);
+}
