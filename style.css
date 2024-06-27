@@ -341,7 +341,7 @@ footer{
 /* media-queries.css */
 
 /* Tablet and below (max-width: 768px) */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:500px ) {
   .intro-section {
       flex-direction: column;
       align-items: center;
@@ -353,7 +353,7 @@ footer{
   }
 
   .box {
-      max-width: 90%;
+      max-width: fit-content;
       text-align: center;
   }
 
